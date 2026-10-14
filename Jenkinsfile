@@ -10,8 +10,10 @@ pipeline {
 
         stage('This is my first stage2') {
             steps {
+                script {
                 echo 'Hello, I am stage2'
             }
         }
-    }
-}
+     }
+  }
+}   
